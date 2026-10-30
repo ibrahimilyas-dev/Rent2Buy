@@ -1,0 +1,12 @@
+const fs = require('fs');
+const path = require('path');
+const parse = text => { const m=text.match(/^---\s*\n([\s\S]*?)\n---/); const obj={}; if(!m)return {data:obj}; for(const line of m[1].split('\n')){const i=line.indexOf(':');if(i<0)continue;const k=line.slice(0,i).trim(),v=line.slice(i+1).trim().replace(/^"|"$/g,'');obj[k]=v==='true'?true:v==='false'?false:/^\d+$/.test(v)?Number(v):v;}return {data:obj};};
+const root = __dirname;
+const dist = path.join(root,'dist');
+fs.rmSync(dist,{recursive:true,force:true});
+fs.cpSync(path.join(root,'public'),dist,{recursive:true});
+const carsDir = path.join(root,'src/cars');
+const cars = fs.readdirSync(carsDir).filter(f=>f.endsWith('.md')).map(f=>parse(fs.readFileSync(path.join(carsDir,f),'utf8')).data);
+const settings = JSON.parse(fs.readFileSync(path.join(root,'src/settings.json'),'utf8'));
+fs.writeFileSync(path.join(dist,'data.json'),JSON.stringify({cars,settings},null,2));
+console.log(`Built ${cars.length} vehicle listings`);

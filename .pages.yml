@@ -1,0 +1,94 @@
+media:
+  input: public/images
+  output: /images
+content:
+  - name: cars
+    label: Vehicle Listings
+    type: collection
+    path: src/cars
+    filename: '{primary}.md'
+    view:
+      fields: [title, weekly_price, status, featured]
+      primary: title
+      sort: [title]
+    fields:
+      - name: title
+        label: Vehicle name
+        type: string
+        required: true
+      - name: slug
+        label: URL friendly identifier
+        type: string
+        required: true
+      - name: year
+        label: Year
+        type: number
+      - name: weekly_price
+        label: Weekly price in GBP
+        type: number
+        required: true
+      - name: deposit
+        label: Deposit in GBP
+        type: number
+      - name: transmission
+        label: Transmission
+        type: select
+        options:
+          values: [Manual, Automatic]
+      - name: fuel
+        label: Fuel type
+        type: select
+        options:
+          values: [Petrol, Diesel, Hybrid, Electric]
+      - name: mileage
+        label: Mileage
+        type: number
+      - name: status
+        label: Availability
+        type: select
+        options:
+          values: [Available, Reserved, Sold]
+      - name: featured
+        label: Feature on homepage
+        type: boolean
+      - name: image
+        label: Main photo
+        type: image
+      - name: image2
+        label: Second photo
+        type: image
+      - name: image3
+        label: Third photo
+        type: image
+      - name: description
+        label: Vehicle description
+        type: text
+  - name: settings
+    label: Business Settings
+    type: file
+    path: src/settings.json
+    fields:
+      - name: business_name
+        label: Business name
+        type: string
+      - name: phone
+        label: Contact phone number
+        type: string
+      - name: whatsapp
+        label: WhatsApp number with country code (digits only)
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: address
+        label: Address
+        type: string
+      - name: hero_title
+        label: Main headline
+        type: string
+      - name: hero_subtitle
+        label: Intro text
+        type: text
+      - name: logo
+        label: Logo
+        type: image

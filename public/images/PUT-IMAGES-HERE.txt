@@ -1,0 +1,3 @@
+hero-car.jpg = large homepage car image
+lifestyle.jpg = lifestyle section image
+All listing images are uploaded via Pages CMS.
