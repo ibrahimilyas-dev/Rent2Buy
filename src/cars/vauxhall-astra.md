@@ -1,14 +1,14 @@
 ---
-title: "Vauxhall Astra "
-slug: vauxhall-astra-sri
-year: 2018
-weekly_price: 95
+title: BMW M5
+slug: BMW-M5
+year: 2009
+weekly_price: 107
 deposit: 300
-transmission: Manual
-fuel: Diesel
+transmission: Automatic
+fuel: Petrol
 mileage: 71000
 status: Available
 featured: true
-description: Comfortable five door hatchback with plenty of space. Demonstration
-  vehicle, not real inventory.
+image: /images/IMG_1936 (1) (1).jpg
+description: "Comfortable five door saloon with plenty of space. "
 ---
