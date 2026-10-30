@@ -1,5 +1,5 @@
 ---
-title: Vauxhall Astra SRi
+title: "Vauxhall Astra "
 slug: vauxhall-astra-sri
 year: 2018
 weekly_price: 95
@@ -9,8 +9,6 @@ fuel: Diesel
 mileage: 71000
 status: Available
 featured: true
-image: ""
-image2: ""
-image3: ""
-description: "Comfortable five door hatchback with plenty of space. Demonstration vehicle, not real inventory."
+description: Comfortable five door hatchback with plenty of space. Demonstration
+  vehicle, not real inventory.
 ---
