@@ -9,8 +9,6 @@ fuel: Diesel
 mileage: 84000
 status: Reserved
 featured: true
-image: ""
-image2: ""
-image3: ""
-description: "Premium compact hatchback. Demonstration vehicle, not real inventory."
+image: /images/BMW_E87_front_20080417.jpg
+description: Premium compact hatchback. Demonstration vehicle, not real inventory.
 ---
