@@ -11,9 +11,7 @@
       "mileage": 84000,
       "status": "Reserved",
       "featured": true,
-      "image": "",
-      "image2": "",
-      "image3": "",
+      "image": "/images/BMW_E87_front_20080417.jpg",
       "description": "Premium compact hatchback. Demonstration vehicle, not real inventory."
     },
     {
@@ -27,26 +25,22 @@
       "mileage": 62000,
       "status": "Available",
       "featured": true,
-      "image": "",
-      "image2": "",
-      "image3": "",
-      "description": "A practical, economical hatchback ideal for everyday driving. Replace this sample listing with your actual vehicle details."
+      "image": "/images/OAJ1.jpg",
+      "description": "A practical, economical hatchback ideal for everyday driving."
     },
     {
-      "title": "Vauxhall Astra SRi",
-      "slug": "vauxhall-astra-sri",
-      "year": 2018,
-      "weekly_price": 95,
+      "title": "BMW M5",
+      "slug": "BMW-M5",
+      "year": 2009,
+      "weekly_price": 107,
       "deposit": 300,
-      "transmission": "Manual",
-      "fuel": "Diesel",
+      "transmission": "Automatic",
+      "fuel": "Petrol",
       "mileage": 71000,
       "status": "Available",
       "featured": true,
-      "image": "",
-      "image2": "",
-      "image3": "",
-      "description": "Comfortable five door hatchback with plenty of space. Demonstration vehicle, not real inventory."
+      "image": "/images/040-bmw-m5-review.webp",
+      "description": "Comfortable five door saloon with plenty of space. "
     }
   ],
   "settings": {
