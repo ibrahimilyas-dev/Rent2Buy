@@ -9,8 +9,7 @@ fuel: Petrol
 mileage: 62000
 status: Available
 featured: true
-image: ""
-image2: ""
-image3: ""
-description: "A practical, economical hatchback ideal for everyday driving. Replace this sample listing with your actual vehicle details."
+image: /images/OAJ1.jpg
+description: A practical, economical hatchback ideal for everyday driving.
+  Replace this sample listing with your actual vehicle details.
 ---
