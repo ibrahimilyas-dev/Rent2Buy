@@ -1,0 +1,62 @@
+{
+  "cars": [
+    {
+      "title": "BMW 1 Series Sport",
+      "slug": "bmw-1-series-sport",
+      "year": 2016,
+      "weekly_price": 115,
+      "deposit": 400,
+      "transmission": "Automatic",
+      "fuel": "Diesel",
+      "mileage": 84000,
+      "status": "Reserved",
+      "featured": true,
+      "image": "",
+      "image2": "",
+      "image3": "",
+      "description": "Premium compact hatchback. Demonstration vehicle, not real inventory."
+    },
+    {
+      "title": "Ford Fiesta Zetec",
+      "slug": "ford-fiesta-zetec",
+      "year": 2017,
+      "weekly_price": 85,
+      "deposit": 250,
+      "transmission": "Manual",
+      "fuel": "Petrol",
+      "mileage": 62000,
+      "status": "Available",
+      "featured": true,
+      "image": "",
+      "image2": "",
+      "image3": "",
+      "description": "A practical, economical hatchback ideal for everyday driving. Replace this sample listing with your actual vehicle details."
+    },
+    {
+      "title": "Vauxhall Astra SRi",
+      "slug": "vauxhall-astra-sri",
+      "year": 2018,
+      "weekly_price": 95,
+      "deposit": 300,
+      "transmission": "Manual",
+      "fuel": "Diesel",
+      "mileage": 71000,
+      "status": "Available",
+      "featured": true,
+      "image": "",
+      "image2": "",
+      "image3": "",
+      "description": "Comfortable five door hatchback with plenty of space. Demonstration vehicle, not real inventory."
+    }
+  ],
+  "settings": {
+    "business_name": "YOUR RENT TO BUY COMPANY",
+    "phone": "+44 7000 000000",
+    "whatsapp": "447000000000",
+    "email": "hello@example.com",
+    "address": "Your showroom address, United Kingdom",
+    "hero_title": "Your next car. A smarter way to own.",
+    "hero_subtitle": "Choose a car you love, pay weekly and work towards ownership. Straightforward options and a team here to help.",
+    "logo": ""
+  }
+}
